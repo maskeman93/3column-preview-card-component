@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Outfit:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Outfit:wght@300;400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: hsl(0, 0%, 95%);
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 125px;
+}
+
+img{
+    margin-bottom: 30px;
+}
+
+.grid{
+    display: grid;
+    width: 800px;
+    height: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-1{
+    background-color: hsl(31, 77%, 52%);
+    padding: 40px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.grid-1 span{
+    background-color: hsl(31, 77%, 52%);
+}
+.grid-1 p {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.grid-1 img {
+    background-color: hsl(31, 77%, 52%);
+
+}
+.grid-1 a{
+    background-color: white;
+    color: hsl(31, 77%, 52%);
+}
+
+
+
+.grid-2{
+    background-color:  hsl(184, 100%, 22%);
+    padding: 40px;
+
+}
+
+.grid-2 span{
+    background-color:  hsl(184, 100%, 22%);
+}
+.grid-2 p {
+    background-color:  hsl(184, 100%, 22%);
+}
+
+.grid-2 img {
+    background-color:  hsl(184, 100%, 22%);
+}
+
+.grid-2 a {
+    background-color: white;
+    color: hsl(184, 100%, 22%);
+}
+
+
+
+
+.grid-3{
+    background-color:  hsl(179, 100%, 13%);
+    padding: 40px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.grid-3 span{
+    background-color:  hsl(179, 100%, 13%);
+}
+.grid-3 p {
+    background-color:  hsl(179, 100%, 13%);
+}
+
+.grid-3 img {
+    background-color:  hsl(179, 100%, 13%);
+}
+
+.grid-3 a{
+    color:  hsl(179, 100%, 13%);
+    background-color: white;
+}
+
+span{
+    display: block;
+    font-size: 37px;
+    font-family: 'Big Shoulders Display';
+    font-weight: 700;
+    color: white;
+}
+
+p{
+    margin-top: 20px;
+    font-size: 11px;
+    font-family: 'Lexend Deca';
+    color: white;
+    line-height: 21.5px;
+}
+
+a{
+    font-size: 13px;
+    font-family: 'Lexend Deca';
+    text-decoration: none;
+    padding: 12px 28px;
+    border-radius: 23px;
+    display: inline-block;
+    margin-top: 70px;
+    margin-bottom: 10px;
+
+}
+
+#a-1:hover{
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+    border: 1px solid white;
+    transition: .3s ease-in-out;
+}
+
+#a-2:hover{
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+    border: 1px solid white;
+    transition: .3s ease-in-out;
+}
+
+#a-3:hover{
+    background-color: hsl(179, 100%, 13%);
+    color: white;
+    border: 1px solid white;
+    transition: .3s ease-in-out;
+}
+
+
+
+p, span, a{
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width: 800px){
+    .grid{
+        grid-template-columns: 1fr;
+        max-width: 400px;
+    }
+    .grid-1{
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 10px;
+    }
+    .grid-3{
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+    }
+
+}
